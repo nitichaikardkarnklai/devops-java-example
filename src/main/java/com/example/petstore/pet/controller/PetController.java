@@ -15,7 +15,7 @@ public class PetController {
 
     @GetMapping("/hi")
     public String sayHi() {
-        return "hi, from Continuous Deployment!";
+        return "hi, from Continuous Deployment! by Imnerb";
     }
 
     @GetMapping
